@@ -1,0 +1,25 @@
+{
+  "name": "mmorpg",
+  "version": "1.0.0",
+  "description": "site recode",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contactforezu/mmorpg.git"
+  },
+  "author": "contactforezu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/contactforezu/mmorpg/issues"
+  },
+  "homepage": "https://github.com/contactforezu/mmorpg#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
