@@ -1,0 +1,74 @@
+$primary-link-color: #70b9ed;
+$primary-link-color-hover:#f1c36b;
+
+
+/* Mobile first Responsive */
+body{
+  background: #000;
+  font-size: 16px;
+  font-family: sans-serif;
+  color:#fff;
+}
+
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+.icon{
+  position: relative;
+  top:2px;
+}
+/* Elements to hide */
+.trending,.networkbar{display: none;}
+
+
+/* standard desktop */
+@media screen and (min-width:1024px){
+
+  /* Elements to show */
+  .trending,.networkbar{display:block;}
+
+  .trending{
+    background: #263442;
+    height:24px;
+    line-height: 25px;
+    border-bottom: 1px solid #4b4b4b;
+    font-size:.75rem;
+    overflow: hidden;
+  }
+  .trending a{color:$primary-link-color;}
+
+  .networkbar{
+    position: relative;
+    background: #000;
+    height: 36px;
+    line-height: 36px;
+    font-size: .9rem;
+    color:#fff;
+    overflow: hidden;
+  }
+  .networkbar form a{color:$primary-link-color-hover;}
+  .networkbar a:hover{color:$primary-link-color;}
+
+  .networkbar-login input[type="text"],.networkbar-login input[type="password"]{
+    background: #000;
+    border:1px solid #666;
+    color:#fff;
+    width:125px;
+  }
+
+  .gamejump{
+    width:150px;
+    height:36px;
+    background:grey url('sprite.png')no-repeat bottom left;
+    text-indent: -9999px;
+    color:$primary-link-color;
+  }
+  .rndjump{
+    width:50px;
+    height:36px;
+    background:grey url('sprite.png')no-repeat bottom left;
+    text-indent: -9999px;
+    color:$primary-link-color;
+  }
+
+}

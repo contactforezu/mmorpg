@@ -83,6 +83,80 @@ html {
   display: table;
   clear: both; }
 
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+/* Mobile first Responsive */
+body {
+  background: #000;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #fff; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.icon {
+  position: relative;
+  top: 2px; }
+
+/* Elements to hide */
+.trending, .networkbar {
+  display: none; }
+
+/* standard desktop */
+@media screen and (min-width: 1024px) {
+  /* Elements to show */
+  .trending, .networkbar {
+    display: block; }
+  .trending {
+    background: #263442;
+    height: 24px;
+    line-height: 25px;
+    border-bottom: 1px solid #4b4b4b;
+    font-size: .75rem;
+    overflow: hidden; }
+  .trending a {
+    color: #70b9ed; }
+  .networkbar {
+    position: relative;
+    background: #000;
+    height: 36px;
+    line-height: 36px;
+    font-size: .9rem;
+    color: #fff;
+    overflow: hidden; }
+  .networkbar form a {
+    color: #f1c36b; }
+  .networkbar a:hover {
+    color: #70b9ed; }
+  .networkbar-login input[type="text"], .networkbar-login input[type="password"] {
+    background: #000;
+    border: 1px solid #666;
+    color: #fff;
+    width: 125px; }
+  .gamejump {
+    width: 150px;
+    height: 36px;
+    background: grey url("sprite.png") no-repeat bottom left;
+    text-indent: -9999px;
+    color: #70b9ed; }
+  .rndjump {
+    width: 50px;
+    height: 36px;
+    background: grey url("sprite.png") no-repeat bottom left;
+    text-indent: -9999px;
+    color: #70b9ed; } }
+
 html {
   font-family: sans-serif; }
 
@@ -90,4 +164,9 @@ body {
   margin: 0; }
 
 ul, ol {
-  list-style: none; }
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: none; }
