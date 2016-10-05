@@ -1,2 +1,2 @@
-# mmorpg
+# Site::MMORPG
 Recode of mmorpg
