@@ -6,7 +6,7 @@ gulp.task('styles', function() {
     gulp.src('app/sass/**/*.scss')
         .pipe(concat('base.css'))
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./styles/'));
+        .pipe(gulp.dest('./app/styles/'));
 });
 
 //Watch task
