@@ -37,7 +37,7 @@
         <input type="text" name="username" placeholder="Enter Username...">
         <input type="password" name="password" placeholder="Password...">
         Remember?
-        <input type="checkbox" name="remember" checked>
+        <input class="icon" type="checkbox" name="remember" checked>
         <button type="submit">Sign-in</button>
         <a href="#" rel="nofollow">Register Now</a>
         | Forgot
